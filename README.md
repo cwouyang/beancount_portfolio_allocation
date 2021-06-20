@@ -1,11 +1,15 @@
-beancount_portfolio_allocation
+beancount_portfolio_report
 ==============================
 
-Reports on portfolio asset allocations in beancount. Useful for risk analysis
-and for rebalancing purposes.
+### Note
 
-[![Build Status](https://travis-ci.org/ghislainbourgeois/beancount_portfolio_allocation.svg?branch=master)](http://travis-ci.org/ghislainbourgeois/beancount_portfolio_allocation)
-[![Coverage Status](https://coveralls.io/repos/github/ghislainbourgeois/beancount_portfolio_allocation/badge.svg?branch=master)](https://coveralls.io/github/ghislainbourgeois/beancount_portfolio_allocation?branch=master)
+This repo is forked
+from [beancount_portfolio_allocation](https://github.com/ghislainbourgeois/beancount_portfolio_allocation)
+which supports additional columns, including
+
+- Book value
+- PnL & PnL %
+- Percentage in same sublass
 
 Installation
 ------------
@@ -14,12 +18,6 @@ Installation
 
 ```bash
 $ python3 setup.py install
-```
-
-### PIP
-
-```bash
-$ pip install beancount_portfolio_allocation
 ```
 
 Usage
@@ -63,7 +61,6 @@ Subclass      Market Value    Percentage    Target %    Difference
 ----------  --------------  ------------  ----------  ------------
 ca-bond             320.00         16.00       40.00        480.00
 ```
-
 
 Prerequisites
 -------------

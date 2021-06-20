@@ -5,7 +5,7 @@ __license__ = "GNU GPLv2"
 
 from tabulate import tabulate
 
-import beancount_portfolio_allocation.loader as loader
+import beancount_portfolio_report.loader as loader
 
 
 def report_data(targets, allocations, total):

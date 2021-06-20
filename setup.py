@@ -8,12 +8,12 @@ with open("README.md", "r") as fh:
     long_description = fh.read()
 
 setuptools.setup(
-        name="beancount_portfolio_allocation",
-        version="0.3.0",
+        name="beancount_portfolio_report",
+        version="0.4.0",
         packages=setuptools.find_packages(),
         entry_points={
             'console_scripts': [
-                'bean-portfolio-allocation-report = beancount_portfolio_allocation.allocation_report:main',
+                'bean-portfolio-allocation-report = beancount_portfolio_report.allocation_report:main',
             ],
         },
 

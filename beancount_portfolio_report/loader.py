@@ -8,7 +8,7 @@ from beancount import loader
 from beancount.core.data import Custom
 from beancount.query import query
 
-from beancount_portfolio_allocation.allocation import Allocations, Position
+from beancount_portfolio_report.allocation import Allocations, Position
 
 
 def load(bean, portfolio):

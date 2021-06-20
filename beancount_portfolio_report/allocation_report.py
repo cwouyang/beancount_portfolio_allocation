@@ -74,6 +74,7 @@ def report(bean, portfolio):
     first = True
 
     for asset_class in data:
+        head[5] = "% in " + asset_class
         if not first:
             report += "\n\n"
         else:
